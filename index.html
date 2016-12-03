@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Star Wars RPG</title>
+	  <!-- JQuery -->
+ 	<script src="https://code.jquery.com/jquery.js"></script>
+
+ <!-- BOOTSTRAP
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+ -->
+	<link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+</head>
+<body>
+	<div id='container'>
+
+			<h1>Star Wars RPG</h1>
+
+		<div id="chooser">
+			<div name='Obi-Wan Kenobi' class='card' value='120' data-attack='8' data-addend='8'>
+				<h3>Obi-Wan Kenobi</h3>
+				<img src="./assets/images/obiwan.jpg">
+				<h3 class="health">120</h3>
+			</div>
+			<div name='Luke Skywalker'class='card' value='100' data-attack='5' data-addend='18' >
+				<h3>Luke Skywalker</h3>
+				<img src="./assets/images/luke.jpg">
+				<h3 class="health">100</h3>
+			</div>
+			<div name='Darth Sidious' class='card' value='80' data-attack='25' data-addend='5'>
+				<h3>Darth Sidious</h3>
+				<img src="./assets/images/sidious.png">
+				<h3 class="health">80</h3>
+			</div>
+			<div name='Darth Maul' class='card' value='145' data-attack='18' data-addend='0'>
+				<h3>Darth Maul</h3>
+				<img src="./assets/images/maul.jpg">
+				<h3 class="health">145</h3>
+			</div>
+
+		</div>
+
+		<div id="player">
+			<h2>Your Character</h2>
+		</div>
+
+		<div id="enemies">
+			<h2>Enemies Available to Attack</h2>
+		</div>
+
+		<button id="attack">Attack!!!</button>
+
+		<div id="opponent">
+			<h2>Opponent</h2>
+		</div>
+
+		<div id="display">
+		</div>
+	</div> <!-- container -->
+
+	<script type="text/javascript" src="./assets/javascript/game.js"></script>
+</body>
+</html>
